@@ -5,6 +5,7 @@ go 1.18
 require (
 	dubbo.apache.org/dubbo-go/v3 v3.0.2
 	github.com/apache/dubbo-go-hessian2 v1.11.1
+	github.com/apache/dubbo-go-pixiu v0.2.1
 	github.com/dubbogo/gost v1.12.5
 	github.com/dubbogo/grpc-go v1.42.9
 	github.com/dubbogo/triple v1.1.8
@@ -12,6 +13,8 @@ require (
 	github.com/onsi/ginkgo/v2 v2.1.4
 	github.com/onsi/gomega v1.20.0
 	github.com/pkg/errors v0.9.1
+	github.com/stretchr/testify v1.7.1
+	google.golang.org/grpc v1.48.0
 	google.golang.org/protobuf v1.28.1
 )
 
@@ -40,7 +43,7 @@ require (
 	github.com/envoyproxy/go-control-plane v0.10.2-0.20220325020618-49ff273808a1 // indirect
 	github.com/envoyproxy/protoc-gen-validate v0.1.0 // indirect
 	github.com/fsnotify/fsnotify v1.5.4 // indirect
-	github.com/ghodss/yaml v1.0.0 // indirect
+	github.com/ghodss/yaml v1.0.1-0.20190212211648-25d852aebe32 // indirect
 	github.com/go-co-op/gocron v1.9.0 // indirect
 	github.com/go-errors/errors v1.0.1 // indirect
 	github.com/go-kit/log v0.1.0 // indirect
@@ -87,6 +90,7 @@ require (
 	github.com/opentracing/opentracing-go v1.2.0 // indirect
 	github.com/pelletier/go-toml v1.7.0 // indirect
 	github.com/pierrec/lz4 v2.5.2+incompatible // indirect
+	github.com/pmezard/go-difflib v1.0.0 // indirect
 	github.com/polarismesh/polaris-go v1.1.0 // indirect
 	github.com/power-devops/perfstat v0.0.0-20210106213030-5aafc221ea8c // indirect
 	github.com/prometheus/client_golang v1.12.2 // indirect
@@ -99,7 +103,7 @@ require (
 	github.com/shirou/gopsutil/v3 v3.22.2 // indirect
 	github.com/spaolacci/murmur3 v1.1.0 // indirect
 	github.com/spf13/afero v1.2.2 // indirect
-	github.com/spf13/cast v1.3.0 // indirect
+	github.com/spf13/cast v1.3.1 // indirect
 	github.com/spf13/jwalterweatherman v1.0.0 // indirect
 	github.com/spf13/pflag v1.0.5 // indirect
 	github.com/spf13/viper v1.7.1 // indirect
@@ -128,7 +132,6 @@ require (
 	golang.org/x/text v0.3.7 // indirect
 	google.golang.org/appengine v1.6.6 // indirect
 	google.golang.org/genproto v0.0.0-20211104193956-4c6863e31247 // indirect
-	google.golang.org/grpc v1.48.0 // indirect
 	gopkg.in/ini.v1 v1.51.0 // indirect
 	gopkg.in/natefinch/lumberjack.v2 v2.0.0 // indirect
 	gopkg.in/yaml.v2 v2.4.0 // indirect
